@@ -23,7 +23,6 @@ public class number1009 {
 	
 	
 		
-		
 		for (int i = 0; i<scCount; i++) {
 			System.out.println(number[i]);
 		}
