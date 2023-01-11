@@ -21,7 +21,7 @@ public class number1009 {
 			number[i] = arr2[i] - (arr2[i]/10) *10;
 		}
 	
-		
+	
 		
 		
 		for (int i = 0; i<scCount; i++) {
