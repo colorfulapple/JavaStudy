@@ -8,5 +8,4 @@ public class number10171 {
 		System.out.println("(  /  )");
 		System.out.println(" \\(__)|");
 	}
-
 }
