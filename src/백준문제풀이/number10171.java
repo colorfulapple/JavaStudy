@@ -9,3 +9,4 @@ public class number10171 {
 		System.out.println(" \\(__)|");
 	}
 }
+ 

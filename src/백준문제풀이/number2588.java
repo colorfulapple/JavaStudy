@@ -20,7 +20,7 @@ public class number2588 {
 		System.out.println(three);
 		System.out.println(four);
 		System.out.println(five);
-		System.out.println(three + four*10 + five*100); 
+		System.out.println(three + four*10 + five*100);
 	}
 
 }
