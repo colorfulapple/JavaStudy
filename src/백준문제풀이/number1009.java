@@ -8,23 +8,25 @@ public class number1009 {
 		int scCount = sc.nextInt();
 		int[][] arr = new int[scCount][2];
 		int[] arr2 = new int[scCount];
-		int[] number = new int[scCount];
+		int num = 1;
 		
 		for (int i = 0; i<scCount; i++) {
+			
 			arr[i][0] = sc.nextInt();
 			arr[i][1] = sc.nextInt();
 			
 			
-			arr2[i]=(int) Math.pow(arr[i][0], arr[i][1]);
-		
+			for(int j = 0; j<arr[i][1]; j++ ) {
+				num = num * arr[i][0];
+				num = num - (num/10)*10;
+			}
 			
-			number[i] = arr2[i] - (arr2[i]/10) *10;
+			arr2[i] = num;
+	
 		}
-	
-	
 		
 		for (int i = 0; i<scCount; i++) {
-			System.out.println(number[i]);
+			System.out.println(arr2[i]);
 		}
 	}
 	
